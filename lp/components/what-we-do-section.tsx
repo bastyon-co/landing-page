@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export function WhatWeDoSection() {
   return (
-    <section id="services" className="scroll-mt-16 py-12 sm:py-20">
+    <section id="services" className="scroll-mt-16 py-8 sm:py-12">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl text-center mb-16">
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-balance sm:text-4xl md:text-5xl">What We Do</h2>
@@ -55,7 +55,7 @@ export function WhatWeDoSection() {
               </div>
 
               <div className="pt-4">
-                <p className="text-xs text-muted-foreground text-center">Pilots start at $5k-$15k</p>
+                <p className="text-xs text-muted-foreground text-center">Pilots start at €5k-€15k</p>
               </div>
             </CardContent>
           </Card>
@@ -76,14 +76,6 @@ export function WhatWeDoSection() {
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
-              <div className="p-4 bg-accent/5 rounded-lg border border-accent/20">
-                <p className="font-semibold text-sm mb-1">AI Readiness Assessment</p>
-                <p className="text-2xl font-bold text-accent">Starting at $2k</p>
-                <p className="text-xs text-muted-foreground mt-2">
-                  Get a clear roadmap without committing to development
-                </p>
-              </div>
-
               {/* Updated services */}
               <ul className="space-y-3">
                 <li className="flex gap-2 text-sm text-muted-foreground leading-relaxed">

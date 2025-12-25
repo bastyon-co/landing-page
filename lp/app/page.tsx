@@ -1,6 +1,5 @@
 import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
-import { TrustedBySection } from "@/components/trusted-by-section"
 import { ProblemSection } from "@/components/problem-section"
 import { BastyonWaySection } from "@/components/bastyon-way-section"
 import { WhatWeDoSection } from "@/components/what-we-do-section"
@@ -8,7 +7,6 @@ import { TestimonialsSection } from "@/components/testimonials-section"
 import { WhoThisIsForSection } from "@/components/who-this-is-for-section"
 import { HowEngagementsStartSection } from "@/components/how-engagements-start-section"
 import { WhyBastyonSection } from "@/components/why-bastyon-section"
-import { TeamSection } from "@/components/team-section"
 import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
@@ -21,7 +19,6 @@ export default function Home() {
         <div id="home">
           <HeroSection />
         </div>
-        <TrustedBySection />
         <div id="problem">
           <ProblemSection />
         </div>
@@ -42,9 +39,6 @@ export default function Home() {
         </div>
         <div id="why">
           <WhyBastyonSection />
-        </div>
-        <div id="team">
-          <TeamSection />
         </div>
         <div id="faq">
           <FAQSection />

@@ -25,7 +25,7 @@ export function WhyBastyonSection() {
   ]
 
   return (
-    <section id="why-bastyon" className="scroll-mt-16 py-12 sm:py-20 bg-foreground text-background">
+    <section id="why-bastyon" className="scroll-mt-16 py-8 sm:py-12 bg-foreground text-background">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl text-center mb-16">
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-balance sm:text-4xl md:text-5xl">Why Bastyon</h2>

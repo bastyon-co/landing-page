@@ -9,7 +9,7 @@ export function BastyonWaySection() {
   ]
 
   return (
-    <section className="scroll-mt-16 py-12 sm:py-20 bg-secondary/20">
+    <section className="scroll-mt-16 py-8 sm:py-12 bg-secondary/20">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-4xl">
           <div className="mb-12 text-center">

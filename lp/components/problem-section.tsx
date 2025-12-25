@@ -25,7 +25,7 @@ export function ProblemSection() {
   ]
 
   return (
-    <section className="scroll-mt-16 py-12 sm:py-20">
+    <section className="scroll-mt-16 py-8 sm:py-12">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl text-center mb-16">
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-balance sm:text-4xl md:text-5xl">

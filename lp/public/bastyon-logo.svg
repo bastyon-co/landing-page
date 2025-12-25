@@ -1,0 +1,60 @@
+<svg width="140" height="32" viewBox="0 0 140 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .logo-text { 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; 
+        font-size: 22px; 
+        font-weight: 700; 
+        fill: #0f2346; 
+        letter-spacing: 0px;
+      }
+    </style>
+  </defs>
+  
+  <!-- B -->
+  <text x="0" y="22" class="logo-text">B</text>
+  
+  <!-- A with sharp pointed apex (arrow/caret style) -->
+  <g transform="translate(16, 0)">
+    <!-- Left side -->
+    <path d="M 2 22 L 6 4" stroke="#0f2346" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="miter"/>
+    <!-- Right side -->
+    <path d="M 6 4 L 10 22" stroke="#0f2346" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="miter"/>
+    <!-- Crossbar -->
+    <path d="M 3.5 15 L 8.5 15" stroke="#0f2346" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- S -->
+  <text x="30" y="22" class="logo-text">S</text>
+  
+  <!-- T -->
+  <text x="42" y="22" class="logo-text">T</text>
+  
+  <!-- Y -->
+  <text x="54" y="22" class="logo-text">Y</text>
+  
+  <!-- O - Circular green segmented logo -->
+  <g transform="translate(66, 2)">
+    <!-- Outer circle arcs (incomplete circle with gap at bottom right) -->
+    <path d="M 12 0 A 12 12 0 0 1 24 12" stroke="#5bbd24" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M 24 12 A 12 12 0 0 1 12 24" stroke="#5bbd24" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <path d="M 12 24 A 12 12 0 0 1 0 12" stroke="#5bbd24" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <!-- Note: Gap at bottom right, so this arc is shorter -->
+    <path d="M 0 12 A 12 12 0 0 1 8 2" stroke="#5bbd24" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    
+    <!-- Inner circle arcs (incomplete circle with gap at top) -->
+    <path d="M 14 6 A 6 6 0 0 1 18 12" stroke="#5bbd24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 18 12 A 6 6 0 0 1 10 18" stroke="#5bbd24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 10 18 A 6 6 0 0 1 6 12" stroke="#5bbd24" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <!-- Gap at top, so this arc is shorter or missing -->
+    
+    <!-- Connecting vertical lines -->
+    <!-- Top-center connecting line -->
+    <line x1="12" y1="6" x2="12" y2="3" stroke="#5bbd24" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Bottom-right connecting line -->
+    <line x1="18" y1="18" x2="20" y2="20" stroke="#5bbd24" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- N -->
+  <text x="98" y="22" class="logo-text">N</text>
+</svg>

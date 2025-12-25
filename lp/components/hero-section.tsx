@@ -4,7 +4,7 @@ import Link from "next/link"
 
 export function HeroSection() {
   return (
-    <section className="scroll-mt-16 relative overflow-hidden bg-gradient-to-b from-background to-secondary/20 py-12 sm:py-24">
+    <section className="scroll-mt-16 relative overflow-hidden bg-gradient-to-b from-background to-secondary/20 py-8 sm:py-12">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl text-center">
           <div className="mb-4 inline-flex items-center gap-2 rounded-full border bg-card px-3 py-1 text-sm">

@@ -17,7 +17,7 @@ const faqData = [
   {
     question: "How much does a pilot project cost?",
     answer:
-      "We typically start with a fixed-fee pilot ranging from $5k-$15k depending on complexity, so you can see value before committing to a larger build.",
+      "We typically start with a fixed-fee pilot ranging from €5k-€15k depending on complexity, so you can see value before committing to a larger build.",
   },
   {
     question: "What if we just need strategy, not code?",
@@ -30,7 +30,7 @@ export function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0)
 
   return (
-    <section className="py-12 sm:py-20 bg-secondary/10">
+    <section className="py-8 sm:py-12 bg-secondary/10">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-3xl text-center mb-12">
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-balance sm:text-4xl md:text-5xl">
