@@ -38,7 +38,7 @@ export async function POST(request: Request) {
 
     // Split name into first name and surname (Systeme.io uses 'surname' not 'last_name')
     const trimmedName = name.trim() || "Contact"
-    const nameParts = trimmedName.split(/\s+/).filter(part => part.length > 0)
+    const nameParts = trimmedName.split(/\s+/).filter((part: string) => part.length > 0)
     const firstName = nameParts[0] || trimmedName
     const surname = nameParts.slice(1).join(" ").trim()
 
